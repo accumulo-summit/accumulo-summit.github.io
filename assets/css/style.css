@@ -1,0 +1,116 @@
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-flow: column;
+  padding-top: 5.5rem;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+footer {
+  margin-top: auto;
+  background-color: #f8f8f8;
+  color: #777;
+}
+footer .fineprint {
+  background-color: #ececec;
+}
+.navbar-light {
+  background-color: #f8f8f8;
+}
+.text-primary {
+  color: #42bbec !important;
+}
+a {
+  color: #42bbec;
+}
+a:hover {
+  color: #42bbec;
+}
+.btn-primary, .btn-primary:hover, .btn-primary.disabled, .btn-primary:disabled {
+  background-color: #42bbec;
+  border-color: #42bbec;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background-color: #42bbec;
+  border-color: #42bbec;
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #42bbec;
+}
+.underline {
+  border-bottom: 1px solid #eee;
+}
+.committee img {
+  width: 150px;
+  height: 150px;
+}
+.sponsors img {
+  width: 250px;
+}
+.carousel-control-next, .carousel-control-prev {
+  width: 5%;
+}
+.badge-security {
+  color: #fff;
+  background-color: #dc3545;
+  text-transform: uppercase;
+}
+.badge-apis-frameworks {
+  color: #fff;
+  background-color: #5cb85c;
+  text-transform: uppercase;
+}
+.badge-design, .badge-panel-discussion {
+  color: #fff;
+  background-color: #337ab7;
+  text-transform: uppercase;
+}
+.badge-performance {
+  color: #fff;
+  background-color: #e25098;
+  text-transform: uppercase;
+}
+.badge-keynote {
+  color: #fff;
+  background-color: #5bc0de;
+  text-transform: uppercase;
+}
+.badge-use-case {
+  color: #fff;
+  background-color: #f0ad4e;
+  text-transform: uppercase;
+}
+.badge-graph {
+  color: #fff;
+  background-color: #777777;
+  text-transform: uppercase;
+}
+.badge-internals {
+  color: #fff;
+  background-color: #935da1;
+  text-transform: uppercase;
+}
+.badge-geospatial {
+  color: #fff;
+  background-color: #603bc0;
+  text-transform: uppercase;
+}
+.badge-sponsored {
+  color: #fff;
+  background-color: #343a40;
+  text-transform: uppercase;
+}
+.badge-meetup, .badge-tutorial {
+  color: #fff;
+  background-color: #17a2b8;
+  text-transform: uppercase;
+}
+.schedule .card-deck {
+  margin-bottom: 1.5rem;
+}
