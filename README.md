@@ -27,3 +27,4 @@
   being replicated and becoming out of sync.  **Note:** as a result
   Jekyll doesn't know to update the schedule pages when the underlying
   content changes, so you'll have to do a full build of the site.
+  
